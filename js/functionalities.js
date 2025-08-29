@@ -92,7 +92,7 @@ for (let i = 0; i < callButtons.length; i++) {
             li.className = "mt-2 mx-8";
 
             li.innerHTML = `
-                <div class="flex justify-between items-center w-full bg-red-200 rounded-2xl p-3">
+                <div class="flex justify-between items-center -mx-8 md:mx-0 md:w-full bg-red-200 rounded-2xl p-3">
                     <div>
                         <div class="font-semibold">${serviceName}</div>
                         <div class="text-gray-600">${serviceNumber}</div>
