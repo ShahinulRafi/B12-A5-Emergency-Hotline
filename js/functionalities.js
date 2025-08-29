@@ -108,3 +108,7 @@ for (let i = 0; i < callButtons.length; i++) {
     });
 }
 
+
+document.querySelector(".clear-button").addEventListener("click", function () {
+    callHistory.innerHTML = "";
+});
